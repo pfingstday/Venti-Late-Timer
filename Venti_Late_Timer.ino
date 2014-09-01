@@ -67,9 +67,3 @@ void setColor(int red, int green, int blue) {
   analogWrite(greenPin, green);
   analogWrite(bluePin, blue);
 }
-
-void setColorTag1(int redVal1, int greenVal1, int blueVal1) {
-  analogWrite(redPin, redVal1);
-  analogWrite(greenPin, greenVal1);
-  analogWrite(bluePin, blueVal1); 
-}
